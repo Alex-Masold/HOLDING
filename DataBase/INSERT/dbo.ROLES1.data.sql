@@ -1,0 +1,5 @@
+﻿SET IDENTITY_INSERT [dbo].[ROLES] ON
+INSERT INTO [dbo].[ROLES] ([ID_ROLE], [NAME_ROLE]) VALUES (1, N'Администратор')
+INSERT INTO [dbo].[ROLES] ([ID_ROLE], [NAME_ROLE]) VALUES (2, N'Редактор')
+INSERT INTO [dbo].[ROLES] ([ID_ROLE], [NAME_ROLE]) VALUES (3, N'Пользователь')
+SET IDENTITY_INSERT [dbo].[ROLES] OFF
